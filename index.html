@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Portfolio UI web</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .list {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+            justify-content: end;
+            margin: 50px 100px 50px 100px;
+        }
+
+        .left {
+            width: 50%;
+            margin-left: 148px;
+        }
+
+        .right {
+            width: 50%;
+        }
+
+        .select {
+            display: flex;
+            gap: 180px;
+            margin-bottom:60px;
+            padding-bottom:60px;
+        }
+
+        .button {
+            background-color: #ff6464;
+            color: #ffffff;
+            border: none;
+           
+            border-radius: 0px;
+            padding: 10px;
+            margin-top: 18px;
+            width: 190px;
+
+        }
+        .right img{
+    width: 300px;
+    max-width: 100%;
+}
+
+        .recent-posts {
+            background-color: #edf7fa;
+            padding: 30px 148px;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            
+        }
+
+        .top h2 {
+            font-size: 24px;
+        }
+
+        .top a {
+            text-decoration: none;
+            color: #00a8cc;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            align-items:stretch;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            width:50%;
+            border-radius: 5px;
+            height:230px;
+        }
+
+        .card h3 {
+            font-size: 22px;
+            margin-bottom:15px;
+        }
+
+        .info {
+            margin-bottom: 20px;
+            color: gray;
+        }
+
+        .card p {
+            line-height: 22px;
+            font-size:15px;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="list">
+                <li>Works</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="select">
+        <div class="left">
+            <h2 style="font-size:44px;">Hi, I am John,<br>
+                Creative Technologist</h2>
+            <p style="margin-top:20px;">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br>
+                sint.Velit officia consequat duis
+                enim velit mollit. Exercitation veniam <br> consequat sunt nostrud amet.</p>
+
+            <button class="button">Download Resume</button>
+        </div>
+        <div class="right">
+            <img src="/Images/manpic.png" alt="man">
+        </div>
+    </section>
+    <section class="recent-posts">
+        <div class="top">
+            <h2>Recent posts</h2>
+            <a href="">View all</a>
+        </div>
+        <div class="cards">
+
+            <div class="card">
+                <h3>Making a design system from scratch</h3>
+                <div class="info">
+                    12 Feb 2020 | Design, pattern
+                </div>
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Creating pixel perfect icons in Figma</h3>
+                <div class="info">
+                    12 Feb 2020 | Figma, Icon Design
+                </div>
+                <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
